@@ -507,7 +507,6 @@
 {'GaragNumb': '12507', 'Marsh': '55', 'Graph': '5', 'Smena': '1', 'TimeNav': '12.11.2020 9:06:06', 'Latitude': '55.785685', 'Longitude': '49.170918', 'Speed': '0', 'Azimuth': '185'}
 {'GaragNumb': '12680', 'Marsh': '55', 'Graph': '10', 'Smena': '1', 'TimeNav': '12.11.2020 9:07:40', 'Latitude': '55.721733', 'Longitude': '49.201183', 'Speed': '33', 'Azimuth': '326'}
 {'GaragNumb': '12389', 'Marsh': '55', 'Graph': '7', 'Smena': '1', 'TimeNav': '12.11.2020 9:07:51', 'Latitude': '55.76553', 'Longitude': '49.182527', 'Speed': '2', 'Azimuth': '316'}
-{'GaragNumb': '12781', 'Marsh': '55', 'Graph': '6', 'Smena': '1', 'TimeNav': '12.11.2020 9:07:40', 'Latitude': '55.000067', 'Longitude': '49.0214', 'Speed': '0', 'Azimuth': '228'}
 {'GaragNumb': '12777', 'Marsh': '55', 'Graph': '3', 'Smena': '1', 'TimeNav': '12.11.2020 9:07:46', 'Latitude': '55.746138', 'Longitude': '49.190618', 'Speed': '3', 'Azimuth': '167'}
 {'GaragNumb': '12188', 'Marsh': '55', 'Graph': '8', 'Smena': '1', 'TimeNav': '12.11.2020 9:07:56', 'Latitude': '55.803995', 'Longitude': '49.188148', 'Speed': '33', 'Azimuth': '227'}
 {'GaragNumb': '12520', 'Marsh': '55', 'Graph': '13', 'Smena': '1', 'TimeNav': '12.11.2020 9:07:40', 'Latitude': '55.832033', 'Longitude': '49.1475', 'Speed': '17', 'Azimuth': '359'}
@@ -5261,7 +5260,6 @@
 {'GaragNumb': '12781', 'Marsh': '55', 'Graph': '6', 'Smena': '2', 'TimeNav': '12.11.2020 19:21:40', 'Latitude': '55.827167', 'Longitude': '49.15', 'Speed': '35', 'Azimuth': '284'}
 {'GaragNumb': '12777', 'Marsh': '55', 'Graph': '3', 'Smena': '2', 'TimeNav': '12.11.2020 19:21:56', 'Latitude': '55.728695', 'Longitude': '49.192615', 'Speed': '44', 'Azimuth': '326'}
 {'GaragNumb': '12001', 'Marsh': '55', 'Graph': '11', 'Smena': '1', 'TimeNav': '12.11.2020 19:21:40', 'Latitude': '55.782583', 'Longitude': '49.179933', 'Speed': '0', 'Azimuth': '17'}
-{'GaragNumb': '12520', 'Marsh': '55', 'Graph': '13', 'Smena': '2', 'TimeNav': '12.11.2020 19:21:40', 'Latitude': '55.768917', 'Longitude': '49.040917', 'Speed': '30', 'Azimuth': '52'}
 {'GaragNumb': '12390', 'Marsh': '55', 'Graph': '2', 'Smena': '2', 'TimeNav': '12.11.2020 19:20:09', 'Latitude': '55.782675', 'Longitude': '49.179518', 'Speed': '0', 'Azimuth': '125'}
 {'GaragNumb': '12777', 'Marsh': '55', 'Graph': '3', 'Smena': '2', 'TimeNav': '12.11.2020 19:22:56', 'Latitude': '55.733615', 'Longitude': '49.18688', 'Speed': '41', 'Azimuth': '329'}
 {'GaragNumb': '12389', 'Marsh': '55', 'Graph': '7', 'Smena': '2', 'TimeNav': '12.11.2020 19:15:51', 'Latitude': '55.771367', 'Longitude': '49.21182', 'Speed': '0', 'Azimuth': '348'}
@@ -8353,7 +8351,6 @@
 {'GaragNumb': '12001', 'Marsh': '55', 'Graph': '7', 'Smena': '2', 'TimeNav': '14.11.2020 17:32:40', 'Latitude': '55.772467', 'Longitude': '49.208983', 'Speed': '20', 'Azimuth': '92'}
 {'GaragNumb': '12391', 'Marsh': '55', 'Graph': '6', 'Smena': '2', 'TimeNav': '14.11.2020 17:33:50', 'Latitude': '55.829996', 'Longitude': '49.121024', 'Speed': '36', 'Azimuth': '180'}
 {'GaragNumb': '12001', 'Marsh': '55', 'Graph': '7', 'Smena': '2', 'TimeNav': '14.11.2020 17:33:40', 'Latitude': '55.7713', 'Longitude': '49.211717', 'Speed': '6', 'Azimuth': '84'}
-{'GaragNumb': '12680', 'Marsh': '55', 'Graph': '4', 'Smena': '2', 'TimeNav': '14.11.2020 17:33:40', 'Latitude': '55.7826', 'Longitude': '49.013067', 'Speed': '0', 'Azimuth': '4'}
 {'GaragNumb': '12393', 'Marsh': '55', 'Graph': '9', 'Smena': '2', 'TimeNav': '14.11.2020 17:33:50', 'Latitude': '55.749593', 'Longitude': '49.20857', 'Speed': '3', 'Azimuth': '56'}
 {'GaragNumb': '12392', 'Marsh': '55', 'Graph': '3', 'Smena': '2', 'TimeNav': '14.11.2020 17:33:40', 'Latitude': '55.745533', 'Longitude': '49.19075', 'Speed': '9', 'Azimuth': '170'}
 {'GaragNumb': '12390', 'Marsh': '55', 'Graph': '1', 'Smena': '2', 'TimeNav': '14.11.2020 17:33:34', 'Latitude': '55.71578', 'Longitude': '49.180035', 'Speed': '4', 'Azimuth': '227'}
@@ -9460,7 +9457,6 @@
 {'GaragNumb': '12680', 'Marsh': '55', 'Graph': '11', 'Smena': '2', 'TimeNav': '16.11.2020 15:33:40', 'Latitude': '55.753083', 'Longitude': '49.189083', 'Speed': '30', 'Azimuth': '1'}
 {'GaragNumb': '12680', 'Marsh': '55', 'Graph': '11', 'Smena': '2', 'TimeNav': '16.11.2020 15:34:40', 'Latitude': '55.754483', 'Longitude': '49.188883', 'Speed': '0', 'Azimuth': '121'}
 {'GaragNumb': '12781', 'Marsh': '55', 'Graph': '6', 'Smena': '1', 'TimeNav': '16.11.2020 15:34:40', 'Latitude': '55.8353', 'Longitude': '49.12095', 'Speed': '0', 'Azimuth': '61'}
-{'GaragNumb': '12392', 'Marsh': '55', 'Graph': '2', 'Smena': '1', 'TimeNav': '16.11.2020 15:34:40', 'Latitude': '55.007217', 'Longitude': '49.189717', 'Speed': '0', 'Azimuth': '31'}
 {'GaragNumb': '12391', 'Marsh': '55', 'Graph': '10', 'Smena': '1', 'TimeNav': '16.11.2020 15:34:34', 'Latitude': '55.835997', 'Longitude': '49.122048', 'Speed': '0', 'Azimuth': '274'}
 {'GaragNumb': '12391', 'Marsh': '55', 'Graph': '10', 'Smena': '1', 'TimeNav': '16.11.2020 15:35:49', 'Latitude': '55.826845', 'Longitude': '49.122064', 'Speed': '15', 'Azimuth': '91'}
 {'GaragNumb': '12392', 'Marsh': '55', 'Graph': '2', 'Smena': '1', 'TimeNav': '16.11.2020 15:35:40', 'Latitude': '55.721717', 'Longitude': '49.188567', 'Speed': '0', 'Azimuth': '280'}

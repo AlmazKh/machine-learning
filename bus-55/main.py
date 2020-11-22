@@ -2,8 +2,9 @@ import requests
 import pandas as pd
 import time
 import ast
-import uuid
 from math import sin, cos, sqrt, atan2, radians
+import matplotlib.pyplot as plt
+import datetime
 
 
 def get_data():
@@ -113,7 +114,7 @@ def calculate_distance(lat1, lon1, lat2, lon2):
 def bus_timer(garage, graph_):
     min_distance = 0.02  # 50 m
     with open("bus_data.txt", "r") as bus_list:
-        data = pd.DataFrame(bus_list)
+        data = pd.DataFrame(bus_list).drop_duplicates()
         data = data.to_numpy()
         with open("bus_timings_" + str(garage) + ".txt", "w", encoding='utf-8') as filtered_bus_list:
             for line in data:
@@ -125,13 +126,54 @@ def bus_timer(garage, graph_):
                             filtered_bus_list.write(station.name + ' Time: ' + str(line['TimeNav']) + "\n")
 
 
-get_data()
-# [print(station.name) for station in generate_graph_without_lat_lon()]
-# graph = generate_graph()
-# вывод маршрута 55 автобуса
-# [print(station.name, get_station_by_id(graph, station.next_station_id).name, sep=' -> ') for station in
-# generate_graph()]
+def draw_bus_way(graph_):
+    with open("bus_data.txt", "r") as bus_list:
+        data = pd.DataFrame(bus_list)
+        data = data.to_numpy()
+        plt.figure()
+        x = [float(ast.literal_eval(line[0])["Latitude"]) for line in data]
+        y = [float(ast.literal_eval(line[0])["Longitude"]) for line in data]
+        plt.scatter(x, y, c="b")
+        x_s = [station.lat for station in graph_]
+        y_s = [station.lon for station in graph_]
+        plt.scatter(x_s, y_s, c="y")
+        plt.show()
 
-# print('Garages (different buses): ', *count_garages())
+
+def map_time_to_minutes(time_):
+    if time_.tm_sec > 30:
+        return time_.tm_hour * 60 + time_.tm_min + 1
+    else:
+        return time_.tm_hour * 60 + time_.tm_min
+
+
+def station_to_time(garage_):
+    # stations = []
+    # times = []
+    station_time = []
+    with open("bus_timings_" + garage_ + ".txt", "r", encoding='utf-8') as bus_times:
+        lines = bus_times.readlines()
+        for line in lines:
+            station_time.append((line[:line.find(" Time")], datetime.datetime.strptime(line[line.find("Time:") + 17:line.find("\n")], '%H:%M:%S')))
+            # stations.append(line[:line.find(" Time")])
+            # times.append(time.strptime(line[line.find("Time:") + 17:line.find("\n")], '%H:%M:%S'))
+        # path = [station.name for station in graph_]
+        plt.figure()
+        plt.scatter([t[1] for t in station_time], [t[0] for t in station_time])
+        plt.show()
+
+
+# Для сбора данных
+# get_data()
+#
+graph = generate_graph()
+# вывод маршрута 55 автобуса
+[print(station.name, get_station_by_id(graph, station.next_station_id).name, sep=' -> ') for station in
+ generate_graph()]
+# построение маршрута и остановок на канвасе
+draw_bus_way(graph)
+print('Garages (different buses): ', *count_garages())
 # для каждого автобуса сохраняем момент подъезда к остановке далее нужно будет для подсчета времени
-# [bus_timer(garage, graph) for garage in count_garages()]
+[bus_timer(garage, graph) for garage in count_garages()]
+#  какой момент времени на какой остановке побывал конкретный автобус
+[station_to_time(garage) for garage in count_garages()]
